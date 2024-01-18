@@ -1,14 +1,16 @@
 LEVEL_MAP = [
     '                            ',
     '                            ',
-    ' X                          ',
+    ' X      XX                  ',
     ' XX    XXX            XX    ',
-    ' XX                         ',
+    ' XX            X            ',
     ' XXXX         XX         XX ',
-    ' XXXX       XX              ',
+    ' XXXX      XXX              ',
     ' XX    X  XXXX    XX  XX    ',
-    '       X  XXXX    XX  XXX   ',
+    '      XX  XXXXX   XX  XXX   ',
     '     XXX  XXXXXX  XX  XXXX  ',
-    'XXXXXXXX  XXXXXX  XX  XXXX  '
+    '  XXXXXX  XXXXXX  XXXXXXXXX ',
+    '  XXXXXX     XXX  XXXXXXXXXXX',
+    'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 ]
 

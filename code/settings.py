@@ -1,6 +1,6 @@
 from maps import *
 
-TILE_SIZE = 64
+TILE_SIZE = 45
 
 # colors
 DARK_BLUE = (16, 22, 41)
