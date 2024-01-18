@@ -1,4 +1,10 @@
-import pygame, os
-# from pygame.sprite import _Group
+import pygame, os, sys
+from settings import *
+from maps import *
 
-print(os.getcwd())
+class Tile(pygame.sprite.Sprite):
+    def __init__(self, position, size):
+        super().__init__()
+        self.image = pygame.Surface((size, size)) # x, y
+        self.image.fill(GREY)
+        self.rect = self.image.get_rect(topleft = position)
